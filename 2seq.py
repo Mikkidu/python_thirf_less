@@ -1,0 +1,5 @@
+numbers_str = input('Введите элементы списка через запятую: ')
+numbers_list = numbers_str.split(',')
+numbers_set = set(numbers_list)
+numbers_list = list(numbers_set)
+print('Результат: ', numbers_list)
